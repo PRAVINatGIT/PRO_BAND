@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">ProBAND</string>
+
+    <string name="drum_background_description">Drum kit background</string>
+    <string name="drum_kit_description">Virtual drum kit</string>
+    <string name="back">Back</string>
+
+    <string name="kick_drum">Kick drum</string>
+    <string name="snare_drum">Snare drum</string>
+    <string name="center_tom">Center tom</string>
+    <string name="right_tom">Right tom</string>
+    <string name="left_tom">Left tom</string>
+    <string name="floor_tom">Floor tom</string>
+
+    <string name="left_crash_cymbal">Left crash cymbal</string>
+    <string name="right_crash_cymbal">Right crash cymbal</string>
+    <string name="left_hi_hat">Left hi-hat</string>
+    <string name="right_hi_hat">Right hi-hat</string>
+
+</resources>

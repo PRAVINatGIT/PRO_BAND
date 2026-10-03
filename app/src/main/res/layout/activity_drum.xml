@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drumKitScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drum_background">
+
+    <!-- ===================================================== -->
+    <!-- LEFT LARGE CRASH -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/leftCrash"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/left_crash"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/left_crash_cymbal" />
+
+    <!-- ===================================================== -->
+    <!-- LEFT SMALL CYMBAL -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/leftHihat"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/left_hihat"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/left_hi_hat" />
+
+    <!-- ===================================================== -->
+    <!-- LEFT UPPER TOM / SNARE -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/snareDrum"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/snare_drum"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/snare_drum" />
+
+    <!-- ===================================================== -->
+    <!-- LEFT LOWER TOM -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/leftTom"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/left_tom"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/left_tom" />
+
+    <!-- ===================================================== -->
+    <!-- CENTER TOM -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/centerTom"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/center_tom"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/center_tom" />
+
+    <!-- ===================================================== -->
+    <!-- RIGHT TOM -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/rightTom"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/right_tom"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/right_tom" />
+
+    <!-- ===================================================== -->
+    <!-- RIGHT LARGE CRASH -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/rightCrash"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/right_crash"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/right_crash_cymbal" />
+
+    <!-- ===================================================== -->
+    <!-- RIGHT SMALL CYMBAL -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/rightHihat"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/right_hihat"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/right_hi_hat" />
+
+    <!-- ===================================================== -->
+    <!-- FLOOR TOM -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/floorTom"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/floor_tom"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/floor_tom" />
+
+    <!-- ===================================================== -->
+    <!-- KICK DRUM -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/kickDrum"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:src="@drawable/kick_drum"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/kick_drum" />
+
+    <!-- ===================================================== -->
+    <!-- BACK BUTTON -->
+    <!-- ===================================================== -->
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_revert"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/back" />
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/proband"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/proband"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProBAND">
+
+        <!-- Main / Home Screen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- Keyboard / Piano Screen -->
+        <activity
+            android:name=".KeyboardActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- Guitar Screen -->
+        <activity
+            android:name=".GuitarActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- Drum Kit Screen -->
+        <activity
+            android:name=".DrumActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- About Screen -->
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+    </application>
+
+</manifest>
